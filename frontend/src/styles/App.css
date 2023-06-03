@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Outfit:wght@400;700&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F4F4F4;
+}
+
+header {
+  background-color: #6DECB9;
+  display: flex;
+  justify-content: center;
+  color: #3C3C3C;
+  font-size: 1.5rem;
+}
+
+.input-url-section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-url-section form {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.input-url-section input {
+  flex-grow: 1;
+  font-size: 2rem;
+  padding: 10px;
+  padding-left: 15px;
+  background-color: #F4F4F4;
+  border: 1px solid #a5a5a5;
+  border-radius: 30px;
+  color: #3C3C3C;
+}
+
+.input-url-section input::placeholder {
+  font-style: italic;
+  color: #a5a5a5
+}
+
+.input-url-section button {
+  border-radius: 30px;
+  background-color: #6DECB9;
+  color: #F4F4F4;
+  font-size: 1.25rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #a5a5a5;
+  transition: 400ms;
+}
+
+.input-url-section button:hover {
+  cursor: pointer;
+  background-color: #58dda8;
+}
+
+.intro-para {
+  max-width: 600px;
+  text-align: center;
+  margin: 50px;
+  color: #3C3C3C;
+}
+
+.error {
+  margin: 5px 0 0 10px;
+  font-style: italic;
+  color: rgb(255, 73, 73);
+}
